@@ -326,20 +326,20 @@ p {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .main-images {
-    content: url(../images/heroimg.png);
+    content: url(../images/mob@2.jpeg);
   }
 }
-@media (min-width: 874.98px) {
+@media (min-width: 749.98px) {
   .main-images {
-    content: url(../images/herodecst@1.png);
+    content: url(../images/decst.jpg);
   }
 }
 
-@media screen and (min-width: 874.98px) and (min-device-pixel-ratio: 2),
-  screen and (min-width: 874.98px) and (min-resolution: 192dpi),
-  screen and (min-width: 874.98px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 749.98px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 749.98px) and (min-resolution: 192dpi),
+  screen and (min-width: 749.98px) and (min-resolution: 2dppx) {
   .main-images {
-    content: url(../images/herodecst.png);
+    content: url(../images/decst@2.jpg);
   }
 }
 .group-item {
